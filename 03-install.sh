@@ -2,7 +2,7 @@
 
 USERSID=$(id -u)
 
-if [ $userid -ne 0 ];
+if [ $USERID -ne 0 ];
 then
     echo "error you have to give sudo excess"
 fi
